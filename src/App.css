@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.App {
+	/* text-align: center; */
+	font-family: "Outfit";
+	background: #100b01 !important;
+	color: #fcfcfc;
+}
+.heroTitle {
+	background: linear-gradient(90deg, #ffefd1 4.75%, #fca300 81.77%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	line-height: 127.314%;
+	letter-spacing: -2.38px;
+}
+.bounce-animation {
+	animation: bounce 1s infinite alternate;
+}
+
+.bounce-animation:hover {
+	animation-play-state: paused;
+}
+
+@keyframes bounce {
+	0% {
+		transform: translateY(0);
+	}
+	100% {
+		transform: translateY(-10px);
+	}
+}
